@@ -1,9 +1,11 @@
 body {
     background-color: dimgrey;
-    font-family: sans-serif;
+    font-family: 'Roboto',sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	margin: 0;
+}
+
 }
 header {
 	margin-bottom: 10px;
@@ -11,7 +13,7 @@ header {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	text-align: center;
-  background-color: white
+    background-color: white
 }
 h1   {
     color: white;
@@ -19,13 +21,31 @@ h1   {
 }
 h2   {
     color: white;
-    font-size 30px;
+    font-size: 30px;
+}
+h3   {
+    color: white;
+    font-size: 30px;
+}
+h4   {
+    color: white;
+    font-size: 30px;
 }
 p    {
     color: white;
     margin-bottom: 30px;
 	line-height: 40px;
     font-size: 20px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+p1  {
+    color: white;
+    margin-bottom: 30px;
+    line-height: 40px;
+    font-size: 20px;
+    border-top: 10px;
+    border-bottom:10px;
 }
 nav {
 	margin-bottom: 10px;
@@ -36,34 +56,72 @@ nav ul {
 	margin: 0;
 	padding: 0;
 }
-li {
-border-left: 1px solid black;
-
-
-}
 nav li {
 	display: inline;
 }
 nav a {
-	font-size: 20px;
-	color: black;
-	padding: 15px;
-  margin-left: auto;
-	margin-right: auto;
+	font-size: 25px;
+	color: whitesmoke;
+	padding: 10px;
 	display: inline-block;
-  text-decoration: none
+    margin-bottom: 10px;
 }
 nav a:hover {
 	color: #13aad7;
 	text-decoration: none;
 }
+nav a:active {
+  color: #13aad7;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+border-left: 1px solid dimgrey;
+    color: white;
+
+
+}
 img {
-	display: block;
+  display: block;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 90%;
 	border: 64px;
 	height: auto;
+    border-color: black;
+
+}
+
+img-left {
+	float: left;
+	margin-right: 15px;
+}
+img-right {
+	float: right;
+	margin-left: 15px;
+}
+
+.border {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#logo{
+      text-align: center;
+      display: block;
+      max-width: 100%;
+      height: auto;
+}
+
+Read more: https://html.com/attributes/img-border/#ixzz63uTlkEu1
+li {
+border-left: 1px solid dimgrey;
+
+
 }
 main {
 	width: 70%;
@@ -71,18 +129,19 @@ main {
 	margin-right: auto;
 	margin-left: auto;
 }
-div {
-  width: 100%;
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
-  padding: 50px;
-  margin: 20px;
+#outer {
+			width: 90%;
+			max-width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #484848;
+			padding: 16px;
+}
+figure {
+  align: right;
 }
 figcaption {
   display: block;
   color: white;
   text-align: center;
-}
-figure {
-  align: right
 }
