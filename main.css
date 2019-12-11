@@ -145,3 +145,7 @@ figcaption {
   color: white;
   text-align: center;
 }
+#right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
